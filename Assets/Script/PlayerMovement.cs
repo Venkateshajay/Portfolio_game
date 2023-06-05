@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         bool isPlayerMoving = Mathf.Abs(playerRigidbody.velocity.x) > Mathf.Epsilon;
         if (isPlayerMoving)
         {
-            transform.localScale = new Vector2(Mathf.Sign(playerRigidbody.velocity.x)*0.4f, 0.4f);
+            transform.localScale = new Vector2(Mathf.Sign(playerRigidbody.velocity.x)*0.35f, transform.localScale.y);
         }
     }
 }
