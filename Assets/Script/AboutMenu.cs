@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class AboutMenu : MonoBehaviour
 {
-    [SerializeField] Canvas UI, AboutCanvas;
-    private bool isPlayerNeartheTrigger = false;
+    private UIManager uiManager;
+    [SerializeField] Canvas UI;
+    //private bool isPlayerNeartheTrigger = false;
+
+    private void Start()
+    {
+        uiManager = FindObjectOfType<UIManager>().GetComponent<UIManager>();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            isPlayerNeartheTrigger = true;
+            UI.enabled = true;
+            uiManager.isPlayerNearTheTrigger = true;
+            //isPlayerNeartheTrigger = true;
         }
     }
 
@@ -18,20 +26,9 @@ public class AboutMenu : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            isPlayerNeartheTrigger = false;
-        }
-    }
-
-    private void Update()
-    {
-        if(isPlayerNeartheTrigger)
-        {
-            UI.enabled = true;
-        }
-        if (Input.GetKey(KeyCode.Return) && isPlayerNeartheTrigger)
-        {
-            AboutCanvas.enabled = true;
-            Time.timeScale = 0;
+            UI.enabled = false;
+            uiManager.isPlayerNearTheTrigger = false;
+            //isPlayerNeartheTrigger = false;
         }
     }
 }
