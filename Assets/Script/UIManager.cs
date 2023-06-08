@@ -19,6 +19,10 @@ public class UIManager : MonoBehaviour
         {
             enterButton.gameObject.SetActive(false);
             currentlyActiveCanvas.enabled = true;
+            if(currentlyActiveCanvas.name == "ProjectsCanvas")
+            {
+                TurnOnOffPanels(projectPanelIndex, projectPanels);
+            }
         }
         else
         {
@@ -99,5 +103,10 @@ public class UIManager : MonoBehaviour
         }
        
         return index;
+    }
+
+    public void OpenURL(string link)
+    {
+        Application.OpenURL(link);
     }
 }
