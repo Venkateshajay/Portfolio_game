@@ -2217,7 +2217,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://codex-23.itch.io/multiplayer-shooter
+          m_StringArgument: https://codex-23.itch.io/penalty-shooter
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &253113266
@@ -7045,8 +7045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.6, y: -11.8}
-  m_SizeDelta: {x: 220, y: 50}
+  m_AnchoredPosition: {x: 27.6, y: -12.8}
+  m_SizeDelta: {x: 217.80396, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781409181
 MonoBehaviour:
@@ -7068,13 +7068,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Collaborated with a team of five to develop a 3D horror game in Unity,
-    where players must search for a key to unlock the main door while evading a zombie.
-
-
-
-
-'
+  m_text: A straightforward 3D Football penalty shooter developed in Unity for Android,
+    featuring practical use of Quaternions and transforms.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d0fa928c2b538479be9961eac861d3, type: 2}
   m_sharedMaterial: {fileID: -8876917544364369444, guid: a2d0fa928c2b538479be9961eac861d3, type: 2}
@@ -7101,8 +7096,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 7
-  m_fontSizeBase: 7
+  m_fontSize: 7.5
+  m_fontSizeBase: 7.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7865,7 +7860,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://venkateshportfolio04.netlify.app/Assests/Penalty%20shooter.mp4
+  m_Url: https://venkateshportfolio04.netlify.app/Assests/penalty shooter.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -8454,7 +8449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Asylum
+  m_text: Penalty Shooter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2d0fa928c2b538479be9961eac861d3, type: 2}
   m_sharedMaterial: {fileID: -8876917544364369444, guid: a2d0fa928c2b538479be9961eac861d3, type: 2}
@@ -11055,7 +11050,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://venkateshportfolio04.netlify.app/Assests/Dete%20ke%202023-06-08%2008-53-26.mp4
+  m_Url: https://venkateshportfolio04.netlify.app/Assests/strawberry.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
@@ -11376,7 +11371,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://venkateshportfolio04.netlify.app/Assests/Dete%20ke%202023-06-08%2008-53-26.mp4
+  m_Url: https://venkateshportfolio04.netlify.app/Assests/bang bang.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
@@ -11971,7 +11966,7 @@ GameObject:
   - component: {fileID: 1310118326}
   - component: {fileID: 1310118325}
   m_Layer: 0
-  m_Name: Asylum panel
+  m_Name: Penalty Shooter panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17265,7 +17260,8 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://venkateshportfolio04.netlify.app/Assests/Dete%20ke%202023-06-08%2008-53-26.mp4
+  m_Url: https://venkateshportfolio04.netlify.app/Assests/bobs first contact with
+    mankind 2024-08-17 21-50-41.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
@@ -17682,7 +17678,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://venkateshportfolio04.netlify.app/Assests/Dete%20ke%202023-06-08%2008-53-26.mp4
+  m_Url: https://venkateshportfolio04.netlify.app/Assests/penalty shooter.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
@@ -18506,9 +18502,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videos:
   - {fileID: 1187532801}
-  - {fileID: 856132480}
-  - {fileID: 1770877461}
-  - {fileID: 1483845597}
+  - {fileID: 1965502745}
+  - {fileID: 1238066908}
+  - {fileID: 1996710060}
 --- !u!4 &2086722454
 Transform:
   m_ObjectHideFlags: 0
